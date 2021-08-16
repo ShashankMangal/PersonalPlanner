@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "103832405434",
+    "project_id": "personal-planner-2-0",
+    "storage_bucket": "personal-planner-2-0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103832405434:android:6032b1425c368432188983",
+        "android_client_info": {
+          "package_name": "com.example.personalplanner20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103832405434-tq5g71413fgi19644gtq2qqfl4irv2rt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuAltmxctGDnVhDl9P2HOcTC8Cg9-I4CQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103832405434-tq5g71413fgi19644gtq2qqfl4irv2rt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
