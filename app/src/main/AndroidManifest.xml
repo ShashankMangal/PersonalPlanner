@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sharkBytesLab.myPlanner">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_latest"
@@ -9,6 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_latest_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PersonalPlanner20">
+        <activity
+            android:name=".TermsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrivacyPolicyActivity"
+            android:exported="false" />
         <activity
             android:name=".MenuActivity"
             android:exported="false" />
@@ -34,6 +43,9 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="applovin.sdk.key"
+            android:value="doNokpQpB4U8uCdC0RFRN7O2VWKagVVGIFFffq_NSgiVQ4_TOoqDFOmBgdKpxUgGSRpRiC39b85dC8_TkifX2y" />
     </application>
 
 </manifest>
