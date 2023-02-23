@@ -1,4 +1,4 @@
-package com.example.personalplanner20;
+package com.sharkBytesLab.superNotes;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -10,7 +10,7 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.personalplanner20.MainAdapter.PlannerAdapter;
+import com.sharkBytesLab.superNotes.MainAdapter.PlannerAdapter;
 
 import it.xabaras.android.recyclerview.swipedecorator.RecyclerViewSwipeDecorator;
 

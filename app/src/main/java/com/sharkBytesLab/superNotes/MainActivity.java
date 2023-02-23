@@ -1,4 +1,4 @@
-package com.example.personalplanner20;
+package com.sharkBytesLab.superNotes;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,8 +10,8 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.personalplanner20.MainAdapter.PlannerAdapter;
-import com.example.personalplanner20.MainModel.PlannerModel;
+import com.sharkBytesLab.superNotes.MainAdapter.PlannerAdapter;
+import com.sharkBytesLab.superNotes.MainModel.PlannerModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.firestore.DocumentChange;
 import com.google.firebase.firestore.EventListener;
@@ -22,8 +22,6 @@ import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements onDialogCloseListener {

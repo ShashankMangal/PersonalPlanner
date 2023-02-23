@@ -1,4 +1,4 @@
-package com.example.personalplanner20;
+package com.sharkBytesLab.superNotes;
 
 import android.content.DialogInterface;
 

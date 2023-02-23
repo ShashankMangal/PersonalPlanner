@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.personalplanner20">
+    package="com.sharkBytesLab.superNotes">
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PersonalPlanner20">
         <activity
-            android:name=".SignUpActivity"
+            android:name="com.sharkBytesLab.superNotes.SignUpActivity"
             android:exported="true" />
         <activity
-            android:name=".SignInActivity"
+            android:name="com.sharkBytesLab.superNotes.SignInActivity"
             android:exported="true" />
         <activity
-            android:name=".SplashActivity"
+            android:name="com.sharkBytesLab.superNotes.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,8 +25,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:name="com.sharkBytesLab.superNotes.MainActivity"
+            android:exported="true" />
 
         <meta-data
             android:name="preloaded_fonts"

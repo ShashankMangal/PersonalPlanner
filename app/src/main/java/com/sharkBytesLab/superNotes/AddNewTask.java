@@ -1,4 +1,4 @@
-package com.example.personalplanner20;
+package com.sharkBytesLab.superNotes;
 
 import android.app.Activity;
 import android.app.DatePickerDialog;
@@ -15,7 +15,6 @@ import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.DatePicker;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 

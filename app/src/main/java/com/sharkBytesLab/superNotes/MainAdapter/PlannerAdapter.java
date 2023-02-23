@@ -1,4 +1,4 @@
-package com.example.personalplanner20.MainAdapter;
+package com.sharkBytesLab.superNotes.MainAdapter;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,10 +12,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.personalplanner20.AddNewTask;
-import com.example.personalplanner20.MainActivity;
-import com.example.personalplanner20.MainModel.PlannerModel;
-import com.example.personalplanner20.R;
+import com.sharkBytesLab.superNotes.AddNewTask;
+import com.sharkBytesLab.superNotes.MainActivity;
+import com.sharkBytesLab.superNotes.MainModel.PlannerModel;
+import com.sharkBytesLab.superNotes.R;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.List;
