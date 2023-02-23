@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PersonalPlanner20">
         <activity
-            android:name="com.sharkBytesLab.myPlanner.SignUpActivity"
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
             android:exported="true" />
         <activity
-            android:name="com.sharkBytesLab.myPlanner.SignInActivity"
+            android:name=".SignInActivity"
             android:exported="true" />
         <activity
-            android:name="com.sharkBytesLab.myPlanner.SplashActivity"
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.sharkBytesLab.myPlanner.MainActivity"
+            android:name=".MainActivity"
             android:exported="true" />
 
         <meta-data

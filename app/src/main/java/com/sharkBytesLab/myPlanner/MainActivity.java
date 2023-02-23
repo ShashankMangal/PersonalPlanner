@@ -7,8 +7,10 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 import com.sharkBytesLab.myPlanner.MainAdapter.PlannerAdapter;
 import com.sharkBytesLab.myPlanner.MainModel.PlannerModel;
@@ -28,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements onDialogCloseList
 
 
     private RecyclerView recyclerView;
+    private ImageView menu;
     private FloatingActionButton mFab;
     private FirebaseFirestore firestore;
     private PlannerAdapter adapter;
@@ -44,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements onDialogCloseList
 
         recyclerView = findViewById(R.id.recyclerView);
         mFab = findViewById(R.id.floatingActionButton);
+        menu = findViewById(R.id.main_menu);
         firestore = FirebaseFirestore.getInstance();
 
 
@@ -62,6 +66,13 @@ public class MainActivity extends AppCompatActivity implements onDialogCloseList
         itemTouchHelper.attachToRecyclerView(recyclerView);
         showData();
         recyclerView.setAdapter(adapter);
+
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, MenuActivity.class));
+            }
+        });
 
 
     }
