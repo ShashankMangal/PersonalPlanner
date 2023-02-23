@@ -1,4 +1,4 @@
-package com.sharkBytesLab.superNotes.MainModel;
+package com.sharkBytesLab.myPlanner.MainModel;
 
 public class PlannerModel extends  TaskId{
 

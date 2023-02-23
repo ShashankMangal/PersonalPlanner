@@ -25,7 +25,6 @@
         android:drawableStart="@drawable/ic_baseline_calendar_today_24"
         android:drawablePadding="8dp"
         android:text="Set Due date"
-
         android:textColor="@color/ic_launcher_background"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"

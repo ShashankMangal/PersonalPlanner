@@ -1,4 +1,4 @@
-package com.sharkBytesLab.superNotes.MainAdapter;
+package com.sharkBytesLab.myPlanner.MainAdapter;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,10 +12,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.sharkBytesLab.superNotes.AddNewTask;
-import com.sharkBytesLab.superNotes.MainActivity;
-import com.sharkBytesLab.superNotes.MainModel.PlannerModel;
-import com.sharkBytesLab.superNotes.R;
+import com.sharkBytesLab.myPlanner.AddNewTask;
+import com.sharkBytesLab.myPlanner.MainActivity;
+import com.sharkBytesLab.myPlanner.MainModel.PlannerModel;
+import com.sharkBytesLab.myPlanner.R;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.List;

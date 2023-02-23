@@ -7,7 +7,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.sharkBytesLab.superNotes"
+        applicationId "com.sharkBytesLab.myPlanner"
         minSdk 26
         targetSdk 33
         versionCode 1

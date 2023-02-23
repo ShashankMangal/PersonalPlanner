@@ -1,4 +1,4 @@
-package com.sharkBytesLab.superNotes;
+package com.sharkBytesLab.myPlanner;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,8 +10,8 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 
-import com.sharkBytesLab.superNotes.MainAdapter.PlannerAdapter;
-import com.sharkBytesLab.superNotes.MainModel.PlannerModel;
+import com.sharkBytesLab.myPlanner.MainAdapter.PlannerAdapter;
+import com.sharkBytesLab.myPlanner.MainModel.PlannerModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.firestore.DocumentChange;
 import com.google.firebase.firestore.EventListener;

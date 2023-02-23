@@ -1,4 +1,4 @@
-package com.sharkBytesLab.superNotes;
+package com.sharkBytesLab.myPlanner;
 
 import androidx.appcompat.app.AppCompatActivity;
 

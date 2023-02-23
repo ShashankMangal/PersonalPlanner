@@ -1,4 +1,4 @@
-package com.sharkBytesLab.superNotes;
+package com.sharkBytesLab.myPlanner;
 
 import android.app.Activity;
 import android.app.DatePickerDialog;

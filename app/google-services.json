@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:103832405434:android:6032b1425c368432188983",
+        "mobilesdk_app_id": "1:103832405434:android:086dee26a8bedda6188983",
         "android_client_info": {
-          "package_name": "com.example.personalplanner20"
+          "package_name": "com.sharkBytesLab.myPlanner"
         }
       },
       "oauth_client": [
@@ -43,6 +43,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "103832405434-872ffoq6uuqueq1gmdmfsscoc77s8kju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sharkBytesLab.superNotes",
+            "certificate_hash": "f565f3f5c0f6df238dae2032e5ec1a5ba6d2ca4d"
+          }
+        },
         {
           "client_id": "103832405434-tq5g71413fgi19644gtq2qqfl4irv2rt.apps.googleusercontent.com",
           "client_type": 3
