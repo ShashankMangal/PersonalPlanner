@@ -12,6 +12,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.applovin.sdk.AppLovinSdk;
+import com.applovin.sdk.AppLovinSdkConfiguration;
 import com.sharkBytesLab.myPlanner.MainAdapter.PlannerAdapter;
 import com.sharkBytesLab.myPlanner.MainModel.PlannerModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -44,6 +46,15 @@ public class MainActivity extends AppCompatActivity implements onDialogCloseList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
+
+        AppLovinSdk.getInstance( this ).setMediationProvider( "max" );
+        AppLovinSdk.initializeSdk( this, new AppLovinSdk.SdkInitializationListener() {
+            @Override
+            public void onSdkInitialized(final AppLovinSdkConfiguration configuration)
+            {
+                // AppLovin SDK is initialized, start loading ads
+            }
+        } );
 
         recyclerView = findViewById(R.id.recyclerView);
         mFab = findViewById(R.id.floatingActionButton);
